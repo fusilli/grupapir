@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.grupapir.pl/{{ page.url }}/">
+  <title>{% if not page.fileSlug == "" %}{{ title }} | {% endif %}GRUPA PIR{% if page.fileSlug == "" %} – dbamy o Twój spokój{% endif %}</title>
+  {% if page.fileSlug == "kontakt" %}  
+  <meta name="description" content="Katowice, ul. Michała Gierlotki 8, tel. 660 212 324 lub 539 342 404">
+  {% else %}
+  <meta name="description" content="Zaufanie, partnerstwo, wsparcie zarządcze. Opieka biznesowa, podatkowa, księgowa, kadrowo-płacowa i prawna. Oferta szyta na miarę.">
+  {% endif %}
+  {% set css %}
+    {% include "style.css" %}
+  {% endset %}
+  <style>
+    {{ css | safe }}
+  </style>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body class="{{ page.fileSlug }} bg-gray-200 sm:text-lg leading-relaxed">
+  <header class="border-red px-3 py-6 border-b-2 mb-20">
+    <div class="max-w-screen-xl mx-auto flex justify-between gap-6 items-center">
+      <a href="/" class="block w-16 flex-shrink-0" aria-label="Grupa PIR">{% include "logo.svg" %}</a>
+      <nav>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+        listClass: "flex flex-wrap justify-end leading-7 mb-0",
+        listItemClass: "list-none ml-2 sm:ml-6",
+        anchorClass: "text-sm sm:text-base tracking-wide font-bold uppercase hover:bg-red hover:text-gray-200 focus:bg-red focus:text-gray-200 p-1",
+        activeAnchorClass: "text-red",
+        activeKey: eleventyNavigation.key,
+        showExcerpt: false
+    }) | safe }}
+      </nav>
+    </div>
+  </header>
+  {{ content | safe }}
+  <footer class="text-gray-400 text-xs px-3 text-center uppercase tracking-widest py-8">
+  {# <a href="https://kij.im" target="_blank" class="hover:text-red">kij.im</a> #}
+  </footer>
+  <script>
+    {% include "./scripts/alpine-2.8.2.min.js" %}
+    {% include "./scripts/instantpage-5.1.0.min.js" %}
+  </script>
+</body>
+</html>
