@@ -11,11 +11,16 @@ zaloga:
     fot: justyna-janota.jpg
   - kto: Ilona Pietrzak
     bio: >-
-      Prezes Grupy PIR Sp. z o.o. Doradca biznesowy podmiotów ekonomii społecznej. Fundraiser. Trener i doradca. Przedsiębiorca społeczny. Specjalizuje się w zarządzaniu projektami, tworzeniu koncepcji przedsięwzięć biznesowych i społecznych. Zarządzała kilkunastoma projektami na łączną kwotę ponad 40 mln zł. Menadżer łódzkiego Ośrodka Wsparcia Ekonomii Społecznej Centrum KLUCZ. Ukończyła studia podyplomowe z zamówień publicznych. Absolwentka gospodarki przestrzennej ze specjalnością strategie rozwoju zasobów ludzkich w regionie oraz kapitału ludzkiego w gospodarce opartej na wiedzy. Absolwentka Programu Menedżerowie NGO oraz Akademii Fundraisingu. Redaktor merytoryczny Poradnika „Jak prowadzić biznes społeczny”, współautor „Tylko jeden, a procentuje. Raport nt. mechanizmu 1% podatku dochodowego od osób fizycznych” oraz Poradnika „MOCni wolontariatem”. Wiceprezes thinka-action-tanku Instytut Spraw Obywatelskich, prezes Stowarzyszenia Pracownia Inicjatyw Rozwojowych oraz Grupy INSPRO Sp. z o.o.
+      Prezes Grupy PIR Sp. z o.o. Doradca biznesowy podmiotów ekonomii społecznej. Fundraiser. Trener i doradca. Przedsiębiorca społeczny. Specjalizuje się w zarządzaniu projektami, tworzeniu koncepcji przedsięwzięć biznesowych i społecznych. Zarządzała kilkunastoma projektami na łączną kwotę ponad 40 mln zł. Menadżer łódzkiego Ośrodka Wsparcia Ekonomii Społecznej Centrum KLUCZ. Ukończyła studia podyplomowe z zamówień publicznych. Absolwentka gospodarki przestrzennej ze specjalnością strategie rozwoju zasobów ludzkich w regionie oraz kapitału ludzkiego w gospodarce opartej na wiedzy. Absolwentka Programu Menedżerowie NGO oraz Akademii Fundraisingu. Redaktor merytoryczny Poradnika „Jak prowadzić biznes społeczny”, współautor „Tylko jeden, a procentuje. Raport nt. mechanizmu 1% podatku dochodowego od osób fizycznych” oraz Poradnika „MOCni wolontariatem”. Wiceprezes thinka-action-tanku Instytut Spraw Obywatelskich, prezes Stowarzyszenia Pracownia Inicjatyw Rozwojowych oraz Grupy INSPRO Sp. z o.o. Certyfikowany przez MEN specjalista ds. płac.
     fot: ilona-pietrzak.jpg
-  - kto: Weronika Bartosiewicz
-  - kto: Anna Liskowec
+  - kto: Ewa Pluszyński
+    bio: >-
+      Główna księgowa. Ukończyła studia z finansów i rachunkowości w biznesie oraz z zarządzania zasobami ludzkimi. Wiceprezes Spółki z o.o. „Rajza”. Od 1999 roku doświadczenie zawodowe zdobyła na stanowiskach kierowniczych, w dziale sprzedaży oraz na stanowisku kierownika działu rozliczeń. Obecnie pełni funkcję kierownika działu księgowości. Przez ponad 10 lat prowadziła własną działalność gospodarczą przez 10 lat. Pracowała m.in. w spółce outsourcingowej w dziale finansowo-rozliczeniowym. 
+    fot: ewa-pluszynski.jpg
   - kto: Dorota Wyszyńska
+    bio: >-
+      Księgowa z wieloletnim doświadczeniem. Certyfikowany przez MEN specjalista ds. płac. Zanim rozpoczęła swoją przygodę z kadrami, płacami i księgowością pracowała jako specjalistka ds. zamówień publicznych oraz zajmowała się zdalną obsługą biur techniczno-handlowych w całej Polsce. Wspierała działy handlowe w bieżących projektach, a także zajmowała się udzielaniem zwrotnych instrumentów finansowych.
+    fot: dorota-wyszynska.jpg
 ---
 # O nas
 

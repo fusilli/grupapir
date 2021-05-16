@@ -3,6 +3,7 @@ layout: oferta
 title: Oferta
 eleventyNavigation:
   key: Oferta
+  url: /#oferta
   order: 1
 oferta:
   - usluga: Obsługa kadrowo-płacowa

@@ -1,4 +1,35 @@
 @tailwind base;
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/caveat-v10-latin-ext-regular.woff2') format('woff2'), url('/fonts/caveat-v10-latin-ext-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/fira-sans-v11-latin-ext-regular.woff2') format('woff2'), url('/fonts/fira-sans-v11-latin-ext-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/fira-sans-v11-latin-ext-italic.woff2') format('woff2'), url('/fonts/fira-sans-v11-latin-ext-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/fira-sans-v11-latin-ext-700.woff2') format('woff2'), url('/fonts/fira-sans-v11-latin-ext-700.woff') format('woff');
+}
+.font-hand {
+  font-family: 'Caveat', cursive;
+  @apply text-indigo-900 max-w-2xl mx-auto transform -rotate-3;
+}
 strong, b, h1, h2, h3, h4, .h2 {
   @apply font-bold;
 }
@@ -25,7 +56,7 @@ h3 {
   @apply text-lg sm:text-xl md:text-2xl text-center;
 }
 .karta h3 {
-  @apply text-base;
+  @apply text-lg;
 }
 table {
   @apply w-full bg-white border-red border-t-2;
@@ -58,4 +89,58 @@ td, th {
   }
 }
 @tailwind components;
+body {
+  background: url(/img/kwadraciki.svg) 50% 100% no-repeat;  
+}
+.okladka {
+  background: url(/img/okladka.jpg) 50% 50% no-repeat;
+}
+.tlo-poznaj-nas {
+  background: url(/img/poznaj-nas.jpg) 50% 50% no-repeat;
+}
+.tlo-kontakt {
+  background: url(/img/kontakt.jpg) 50% 50% no-repeat;
+}
+.tlo-cennik {
+  background: url(/img/cennik.jpg) 0% 0% no-repeat;
+  @apply lg:h-screen !important;
+}
+.strzalka:before {
+  display: block;
+  content: "▼";
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  60% {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(-0);
+    -webkit-transform: translateY(-0);
+    transform: translateY(-0);
+  }
+  40% {
+    -ms-transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  60% {
+    -ms-transform: translateY(-25px);
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+}
 @tailwind utilities;

@@ -1,5 +1,5 @@
 ---
-layout: default.njk
+layout: cennik
 title: Cennik
 eleventyNavigation:
   key: Cennik

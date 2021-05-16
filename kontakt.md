@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 # Kontakt
 
-## Skontaktuj się z nami, porozmawiajmy o współpracy!
+<p class="font-hand text-4xl sm:text-5xl text-center mb-20">Skontaktuj się z nami, porozmawiajmy o&nbsp;współpracy!</p>
 
 **GRUPA PIR Sp. z o. o.**  
 ul. Michała Gierlotki 8 | 40-688 Katowice  

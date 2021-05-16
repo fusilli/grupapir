@@ -28,26 +28,26 @@ layout: base
   </symbol>
 </svg>
 <div class="px-3">
-  <main class="max-w-screen-xl mx-auto">
-    <h1>Oferta</h1>
-    <p class="h2">Co dla ciebie przygotowaliśmy?</p>
-    <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-20 mb-12">
+  <main class="max-w-screen-xl mx-auto pt-20">
+    <h1 class="mb-16 sm:mb-20">Oferta</h1>
+    <p class="font-hand text-4xl sm:text-5xl text-center">Co dla ciebie przygotowaliśmy?</p>
+    <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-20 mb-20">
     {% for item in oferta %}
-    <li class="karta bg-white text-sm list-none px-3 sm:px-4 py-10 ml-0 flex flex-col items-center leading-relaxed" x-data="{ open: false }">
-      <div class="bg-red p-3 mb-3 transform -rotate-12">
+    <li class="karta group bg-white text-base list-none px-3 sm:px-4 py-10 ml-0 flex flex-col items-center leading-relaxed" x-data="{ open: false }">
+      <div class="bg-red p-3 mb-3 transform -rotate-12 group-hover:scale-110 transition ease-in-out">
         <svg width="30" height="30" class="mx-auto text-white fill-current" aria-hidden="true"><use xlink:href="#icon-{{ item.ikona }}" /></svg>
       </div>
-      <h2 class="text-lg leading-snug text-center my-6">{{ item.usluga }}</h2>
+      <h2 class="text-lg leading-snug text-center my-6">{{ item.usluga | sierotki | safe }}</h2>
       <div>
-      {{ item.opis | markdownify | safe }}
+      {{ item.opis | markdownify | sierotki | safe }}
       </div>
-      <div x-show="open">
-        {{ item.wiecej | markdownify | safe }}
+      <div class="w-full" x-show="open">
+        {{ item.wiecej | markdownify | sierotki | safe }}
       </div>
       <button class="font-bold tracking-wider border-4 border-red text-red hover:bg-red hover:text-white focus:bg-red focus:text-white px-2 py-1" @click="open = !open" x-text="open ? 'Zwiń' : 'Więcej'">Więcej</button>
     </li>
     {% endfor %}
     </ul>
-    <p class="max-w-2xl mx-auto">Jeśli nie znalazłeś/znalazłaś na powyższej liście interesującej Cię usługi, <a href="/kontakt/">skontaktuj się z nami</a>. Wspólnie poszukamy rozwiązania nawet przy niestandardowym wyzwaniu.</p>
+    <p class="font-hand text-3xl sm:text-4xl px-2 text-center">Jeśli nie znalazłeś/znalazłaś na powyższej liście interesującej Cię usługi, <a href="/kontakt/">skontaktuj się z nami</a>. Wspólnie poszukamy rozwiązania nawet przy niestandardowym wyzwaniu.</p>
   </main>
 </div>
