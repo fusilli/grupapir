@@ -143,4 +143,7 @@ body {
     transform: translateY(-25px);
   }
 }
+.litera {
+  @apply opacity-0;
+}
 @tailwind utilities;
