@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^grupapir.pl [NC]
+RewriteRule ^(.*)$ http://www.grupapir.pl/$1 [L,R=301,NC]
+</IfModule>

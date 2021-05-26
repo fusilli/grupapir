@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./favicon.svg");
   eleventyConfig.addPassthroughCopy("./img/*");
   eleventyConfig.addPassthroughCopy("./fonts/*");
+  eleventyConfig.addPassthroughCopy("./.htaccess");
 
   if (process.env.NODE_ENV == "production") {
     eleventyConfig.addTransform("htmlmin", require("./utils/minify-html.js") );
