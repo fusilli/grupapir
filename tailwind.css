@@ -33,7 +33,7 @@
 strong, b, h1, h2, h3, h4, .h2 {
   @apply font-bold;
 }
-p, ol, ul, h3, table {
+p, ol, ul, h3, h4, table {
   @apply mb-8;
 }
 main a {
@@ -46,8 +46,8 @@ ul li {
 ul li::marker {
   @apply text-red;
 }
-h1 {
-  @apply max-w-3xl bg-red text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center uppercase py-4 mx-auto mb-20;
+h1, .h1 {
+  @apply max-w-3xl bg-red text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center uppercase py-4 mx-auto mt-0 mb-20;
 }
 h2, .h2 {
   @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center mt-16 mb-12;
@@ -55,9 +55,16 @@ h2, .h2 {
 h3 {
   @apply text-lg sm:text-xl md:text-2xl text-center;
 }
-.karta h3 {
-  @apply text-lg;
+.karta {
+  p, ul, ol, h4 {
+    @apply mb-6;
+  }
+  h4 {
+    @apply text-lg text-center;
+  }
 }
+
+
 table {
   @apply w-full bg-white border-red border-t-2;
 }

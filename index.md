@@ -11,7 +11,7 @@ oferta:
     opis: >-
       Sprawny outsourcing w zakresie obsługi kadr i płac oraz formalności związanych z ZUS, PIP, Urzędem Skarbowym i innymi organami. Gwarantujemy rzetelną informację oraz sprawny przepływ danych.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Przygotowanie umów o pracę, wypowiedzeń i rozwiązanie stosunku pracy
 
@@ -33,7 +33,7 @@ oferta:
     opis: >-
       Pełna księgowość, obsługa wszystkich procesów księgowych oraz pomoc w zakresie zarządzania finansami przedsiębiorstw.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Prowadzenie ksiąg zgodnie ustawą o rachunkowości, przepisami prawa podatkowego oraz zakładowym planem kont
       
@@ -53,7 +53,7 @@ oferta:
     opis: >-
       Szeroka gama usług księgowych świadczonych dla firm jednoosobowych oraz spółek cywilnych. Online i tradycyjnie.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Bieżące księgowanie dostarczonych dowodów księgowych
       
@@ -73,7 +73,7 @@ oferta:
 
       Załatwiamy wszelkie formalności związane z prowadzeniem firmy jako ryczałt ewidencjonowany.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Ewidencja przychodów
       
@@ -87,7 +87,7 @@ oferta:
     opis: >-
       2566 – tyle dokładnie wynosi liczba ustaw, które dotyczą kwestii księgowo-podatkowych. Każdego roku zmieniają się dziesiątki praw, podatków i interpretacji. Duża część tych liczb dotyczy handlu elektronicznego.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Poprowadzimy księgowość Twojego sklepu internetowego, tak, żeby wszystko było zgodnie z literą prawa podatkowego, a zarazem, by nie ugrząźć w gąszczu zmian i nie spowalniać rozwoju sklepu
       
@@ -97,7 +97,7 @@ oferta:
     opis: >-
       Wspieramy przyszłych właścicieli przedsiębiorstw, fundatorów fundacji, członków stowarzyszeń, doceniamy ich kreatywność, motywujemy do działania pod naszą pieczą.
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Pełne wsparcie przy wyborze rodzaju działalności
       
@@ -118,7 +118,7 @@ oferta:
       
       **Oferujemy kompleksowe usługi księgowo-kadrowo-płacowe.**
 
-      ### Dla organizacji pozyskujących dotacje i granty oferujemy:
+      #### Dla organizacji pozyskujących dotacje i granty oferujemy:
       
       * Wsparcie etapu budżetowania nowych projektów np. analiza potrzeb i zaangażowania zasobów kadrowych i rzeczowych na rzecz projektu
       
@@ -132,7 +132,7 @@ oferta:
     opis: >-
       Prowadzisz działalność gospodarczą i wiesz, że podawanie własnego adresu zamieszkania nie jest dobrym pomysłem? A może otwierasz odział firmy w Katowicach? Potrzebujesz salkę na spotkanie biznesowe?
     wiecej: >-
-      ### W skład usługi wchodzi:
+      #### W skład usługi wchodzi:
       
       * Adres do rejestracji firmy
       
