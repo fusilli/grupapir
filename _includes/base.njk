@@ -40,8 +40,9 @@
   {{ content | safe }}
   <script>
   {% if page.fileSlug == "" %}
-    {% include "./scripts/okladka.js" %}
-    {% include "./scripts/rozwin.js" %}
+    {%- include "./scripts/anime.min.js" -%}
+    {%- include "./scripts/anime-timeline.min.js" -%}
+    {%- include "./scripts/rozwin.min.js" -%}
   {% endif %}
   </script>
 </body>
