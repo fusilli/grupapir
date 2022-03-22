@@ -17,6 +17,7 @@
     {{ css | safe }}
   </style>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="generator" content="Eleventy">
 </head>
 <body class="{% if page.fileSlug == "" %}oferta{% else %}{{ page.fileSlug }}{% endif %} bg-gray-300 font-sans sm:text-lg leading-relaxed pb-52">
   {% if page.fileSlug == "" %}
