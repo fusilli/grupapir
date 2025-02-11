@@ -40,9 +40,15 @@ p, ol, ul, h3, h4, table {
 main a {
   @apply border-b-2 border-red hover:bg-red hover:text-white focus:bg-red focus:text-white;
 }
-ul li {
+ol > li {
+  @apply list-decimal ml-4;
+}
+ul > li {
   @apply ml-4;
   list-style-type: square;
+}
+ol li::marker {
+  @apply text-red font-bold;
 }
 ul li::marker {
   @apply text-red;
